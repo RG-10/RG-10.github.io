@@ -1,0 +1,25 @@
+{
+    "short_name": "RG-10",
+    "name": "RG-10 - Portfolio",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "theme_color": "#041f36",
+    "theme-color": "#041f36",
+    "background_color": "#041f36",
+    "background-color": "#041f36",
+    "description": "Data Science and Machine Learning Portfolio",
+    "icons": [
+        {
+            "src": "./assets/pwa-logos/logo180x180.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./assets/pwa-logos/logo512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
