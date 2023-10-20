@@ -1,0 +1,189 @@
+/*
+	********************
+	** All Containers **
+	********************
+*/
+.container { width: 100vw; color: var(--color-1); }
+#skillsContainer, #reachMeContainer { background-color: var(--background-color-2); }
+.containerTitle { text-align:  center; font-size: 30px; }
+.containerTitleText { text-decoration: underline; text-decoration-style: dashed; }
+
+.containerContent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	gap: 20px;
+}
+
+.sticker { width: 200px; height: auto; }
+
+/*
+	************************
+	** About Me Container **
+	************************
+*/
+#aboutMeContainer .containerContent span a {
+	color:  var(--color-1);
+	border-bottom-style: dashed;
+	border-bottom-width: 3.1px;
+}
+
+#aboutMeContainer .containerContent span a:hover {
+	border-bottom-style: solid;
+	-webkit-filter: brightness(87%);
+}
+
+#aboutMeContainer .containerContent #profilePic {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+#aboutMeContainer .containerContent #profilePic img { width: min(20rem, 40rem); height: auto; }
+#aboutMeContainer .containerContent #profilePic figcaption { color: var(--color-3); }
+
+/*
+	**********************
+	** Skills Container **
+	**********************
+*/
+.skillsSubContainer .skillsInfoContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom:  15px;
+}
+
+.skillsSubContainer .skillsInfoContainer a { color: var(--color-1); cursor: pointer; }
+
+.skillsSubContainer .skillsInfoContainer a span { 
+	font-size: 25px; 
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	transition:  all 0.3s ease;
+}
+.skillsSubContainer .skillsInfoContainer a span:hover { text-decoration-style: solid; }
+
+.skillsSubContainer .skillsInfoContainer .skillsLogo { width: 60px;  height: auto; }
+
+.skillsSubContainer .skillsStarsContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+
+.skillsSubContainer .skillsStarsContainer img { width:  50px; height:  auto; }
+.skillsSubContainer .skillsStarsContainer .inactive { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+
+#skillsCardsContainer
+, #projectsSubContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap:  wrap;
+	row-gap: var(--skills-card-height);
+}
+
+/*
+	************************
+	** Projects Container **
+	************************
+*/
+#projectsSubContainer .projectBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 15px;
+
+	cursor: pointer;
+	padding:  20px;
+	width:  200px;
+
+	background-color: var(--background-color-2);
+	border-radius:  5px;
+	border:  2px solid var(--color-1);
+
+	transition:  all 0.3s ease;
+}
+
+#projectsSubContainer .projectBtn:hover {
+	-webkit-filter: brightness(87%);
+	transform: translateY(-5px);
+}
+
+#projectsSubContainer .projectBtn img { width: 60px;  height: auto; }
+
+.badge {
+	border-radius:  15px;
+	color: var(--background-color-1);
+	padding:  5px;
+	font-size: 15px;
+	position: relative;
+	float: left;
+}
+
+.regressionBadge { background-color: #1aa7ec; }
+.classifierBadge { background-color: #eb455f; }
+.deepLearningBadge { background-color: #68b984; }
+.streamlitBadge { background-color: #7159c1 }
+
+/*
+	***********************
+	** ReachMe Container **
+	***********************
+*/
+.reachMeSubContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:  15px;
+}
+
+.reachMeSubContainer img { width: 50px; height: auto; }
+
+.reachMeSubContainer a {
+	color:  var(--color-1);
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+.reachMeSubContainer a:hover {
+	border-bottom-style: dashed;
+  	border-bottom-width: 2.5px;
+	-webkit-filter: brightness(87%);	
+}
+
+/*
+	****************
+	** Animations **
+	****************
+*/
+
+@keyframes scrollSign {
+	0%   { 
+		opacity: 100%; 
+		transform: translateY(0px);
+	}
+
+	50%  { 
+		opacity: 65%; 
+		transform: translateY(5px);
+	}
+
+	100% { 
+		opacity: 100%; 
+		transform: translateY(0px);
+	}
+}
+
+.scrollBellow {
+	animation-name: scrollSign;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
