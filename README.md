@@ -5,7 +5,7 @@
 
 ### `❓ What's it? ❓`
 
-> My Personal and Public Portfolio has finally landed!! Check out my latest Data Science projects and libraries developed by myself.
+> Hi Guys, Check out my Portfolio. Please have a look at my latest Data Science and Data Analytics projects.
 
 ----
 <br>
