@@ -1,4 +1,4 @@
-<h1 align="center">🌟 RG-10 - Portfolio 🌟</h1>
+<h1 align="center">🌟 Usama Raheem - Portfolio 🌟</h1>
 
 ----
 <br>
