@@ -43,9 +43,7 @@
 
 ### `📫 Reach Me 📫`
 
-> **Email:** **[usamaraheem.007@gmail.com](mailto:usamaraheem.007@gmail.com?)**
-
-> **Linkedin:** **[linkedin.com/in/usamaraheem/](https://www.linkedin.com/in/usamaraheem/)**
+> **Email:** **[usamaraheem.008@gmail.com](mailto:usamaraheem.008@gmail.com?)**
 
 
 ----
